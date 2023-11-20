@@ -1,71 +1,79 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  
+
 <head>
-  <title>
-    Personal Website
-  </title>
-</head>
-  
-<body>
-  <body style="background-color:WHITE">
-  <BODY TEXT="BLACK">
-    
+  <title>Personal Website</title>
   <style>
-    *{
-    box-string: border-box;
+    body {
+      background-color: white;
+      color: black;
     }
+
+    * {
+      box-sizing: border-box;
+    }
+
     .column {
       float: left;
       width: 33.3%;
       padding: 5px;
     }
-    .row::after{
+
+    .row::after {
       content: "";
       clear: both;
       display: table;
+    }
+
+    h1 {
+      font-size: 128px;
+    }
+
+    h2 {
+      font-size: 100px;
+    }
+
+    p {
+      font-size: 26px;
+    }
+
+    a {
+      font-size: 75px;
+    }
   </style>
-    
+</head>
+
+<body>
   <main>
-    <h1 style="font-sizze: 128px">
-          <center>
-            Sera Ermolenko
-          </center>
+    <h1>
+      <center>Sera Ermolenko</center>
     </h1>
-      <div class="row">
-        <div class="column">
-            <img src="forest.jpg" alt="image 1" style="width: 100%">
-          </div>
-          <div class="column">
-            <img src="beach.jpg" alt="image 1" style="width: 100%">
-          </div>
-          <div class="column">
-            <img src="mountian.jpg" alt="image 1" style="width: 100%">
-          </div>
+    <div class="row">
+      <div class="column">
+        <img src="forest.jpg" alt="image 1" style="width: 100%">
       </div>
-    <h2 style="font-size: 100px">
-      <center>
-        ABOUT ME
-      </center>
+      <div class="column">
+        <img src="beach.jpg" alt="image 2" style="width: 100%">
+      </div>
+      <div class="column">
+        <img src="mountain.jpg" alt="image 3" style="width: 100%">
+      </div>
+    </div>
+    <h2>
+      <center>ABOUT ME</center>
     </h2>
-      <p><center><span stytle="font-size: 26px">
-        Hello my name is Sera     
-      </center></p>
-    
-    <h2 styles="font-size: 100px">
-      <center>
-        Projects
-      </center>
+    <p><center>Hello, my name is Sera</center></p>
+    <h2>
+      <center>Projects</center>
     </h2>
-    <h2 styles="font-size: 75px">
-      <center>
-        <a href="./page2.html">
-          Project 1
-        </a>
-      </center>
-    </h2>   
-    </main>
+    <h2>
+      <center><a href="./page2.html">Project 1</a></center>
+    </h2>
+  </main>
 </body>
+
+</html>
+
         
 </html>       
 
